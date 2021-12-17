@@ -1,0 +1,11 @@
+{
+  "name": "clean-tdd-dashboard",
+  "version": "1.0.0",
+  "description": "Aulas do Manguinho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
