@@ -1,6 +1,5 @@
 
 export default {
-  coverageProvider: "coverage",
-  testEnvironment: "node"
-
-};
+  coverageProvider: 'coverage',
+  testEnvironment: 'node'
+}

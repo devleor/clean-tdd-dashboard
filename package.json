@@ -12,6 +12,11 @@
       "git add"
     ]
   },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -22,6 +27,8 @@
     "husky": "^7.0.4",
     "jest": "^27.4.5",
     "lint-staged": "^12.1.2",
-    "standard": "^16.0.4"
+    "standard": "^16.0.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
   }
 }
