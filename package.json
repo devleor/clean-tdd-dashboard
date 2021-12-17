@@ -4,7 +4,7 @@
   "description": "Aulas do Manguinho",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "lint-staged": {
     "*.js": [
@@ -12,7 +12,7 @@
       "git add"
     ]
   },
-  "husky":{
+  "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
@@ -20,6 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "husky": "^7.0.4",
+    "jest": "^27.4.5",
     "lint-staged": "^12.1.2",
     "standard": "^16.0.4"
   }
