@@ -4,13 +4,12 @@
   "description": "Aulas do Manguinho",
   "main": "index.js",
   "scripts": {
-    "staged": "npx jest" ,
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "lint-staged": {
     "*.js": [
       "standard --fix",
-      "npm run staged",
+      "npx jest",
       "git add"
     ]
   },
